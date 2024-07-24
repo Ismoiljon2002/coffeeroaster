@@ -1,0 +1,30 @@
+// Colors
+$light-bg-color: #FEFCF7;
+$dark-bg-color: #2C343E;
+$text-dark: #333D4B;
+$green: #0E8784;
+$yellow: #FDD6BA;
+
+
+.text-right {
+    text-align: right;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin setBgImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@mixin cardStyle {
+    background-color: $light-bg-color;
+    color: $base-dark;
+    border-radius: 5px;
+}

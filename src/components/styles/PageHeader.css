@@ -1,0 +1,25 @@
+.text-right {
+  text-align: right;
+}
+
+.header {
+  border-radius: 12px;
+  padding: 120px 85px;
+  margin: 20px 0 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.header h1 {
+  width: 50%;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 900;
+  font-family: "Fraunces", sans-serif;
+}
+.header p {
+  font-size: 16px;
+  line-height: 26px;
+  width: 450px;
+  padding: 32px 0 56px;
+}/*# sourceMappingURL=PageHeader.css.map */

@@ -1,0 +1,80 @@
+@import '../../../assets/base';
+
+
+.collection {
+    margin: 100px 0;
+
+    img.our-collection {
+        width: 100%;
+        margin: 0 0 100px;
+    }
+
+
+    .collection-item {
+        padding: 30px;
+        color: $text-dark;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: -80%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        h4 {
+            font-size: 24px;
+            line-height: 32px;
+            padding: 24px 0;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    };
+}
+
+.advantages {
+    background-color: $dark-bg-color;
+    height: 577px;
+    border-radius: 12px;
+
+    h2 {
+        font-size: 40px;
+        padding: 100px 0 30px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 540px;
+        margin: 0 auto;
+        color: $light-bg-color;
+        font-weight: 400;
+    }
+
+    .advantage {
+        width: 350px;
+        height: 380px;
+        border-radius: 12px;
+        background-color: $green;
+        margin: 85px 15px;
+
+        img {
+            width: 72px;
+            margin-top: 70px;
+        }
+        h4 {
+            color: #fff;
+            font-size: 24px;
+            margin: 50px 0 25px;
+        }
+        p {
+            width: 255px;
+        }
+    }
+
+    
+
+}
